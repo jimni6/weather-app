@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: "Prompt", sans-serif;
+    font-weight: 200;
+    color: #fff;
+    /* background-color: black; */
+}
+
+h1, h2 {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+}
+h2 {
+    font-weight: 200;
+}
+
+.container {
+    /* max-width: 1050px; */
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(94, 92, 92); */
+    background-color: #4655EF;
+    /* border-radius: 3px; */
+}
+.card {
+    width: 230px;
+    height: 302px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    /* padding: 10px; */
+
+}
+
+.glass {
+    background: rgba(255,255,255, .1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    border-radius: 3px; 
+    border: .2px solid rgba(255, 255, 255, .5);
+    border-right: .2px solid rgba(255, 255, 255, .2);
+    border-bottom: .2px solid rgba(255, 255, 255, .2) ;
+    -webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+.title {
+    display: flex;
+    border-bottom: 0.5px solid #fff;
+    width: 100%;
+    text-align: center;
+}
+.temp {
+    font-size: 64px;
+    font-weight: 500;
+}
+.city {
+    display: flex;
+    justify-content: center;
+    /* border-bottom: 0.5px solid #fff; */
+    width: 100%;
+
+}
+
+.svg {
+    width: 16px;
+    height: auto;
+}
+
+.icon {
+    width: 64px;
+    height: auto;
+}
+
+.moreInfo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-top: 0.5px solid #fff;
+
+}
+
+.moreInfo > div {
+    &:nth-of-type(1) {
+        padding-right: 15px;
+    }
+    &:nth-of-type(2) {
+        border-left: 0.5px solid #fff;
+        padding-left: 15px;
+    }
+}
+
+.moreInfoSection {
+    display: flex;
+    width: 75px;
+}
+
+.moreInfoDetails {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+}
