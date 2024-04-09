@@ -3,7 +3,6 @@ body {
     font-family: "Prompt", sans-serif;
     font-weight: 200;
     color: #fff;
-    /* background-color: black; */
 }
 
 h1, h2 {
@@ -16,16 +15,13 @@ h2 {
 }
 
 .container {
-    /* max-width: 1050px; */
     width: 100vw;
     height: 100vh;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: rgb(94, 92, 92); */
     background-color: #4655EF;
-    /* border-radius: 3px; */
 }
 .card {
     width: 230px;
@@ -35,7 +31,6 @@ h2 {
     align-items: center;
     justify-content: space-between;
     margin: 10px;
-    /* padding: 10px; */
 
 }
 
@@ -62,7 +57,6 @@ h2 {
 .city {
     display: flex;
     justify-content: center;
-    /* border-bottom: 0.5px solid #fff; */
     width: 100%;
 
 }
