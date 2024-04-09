@@ -14,16 +14,19 @@ npm (Node Package Manager): npm typically comes bundled with Node.js installatio
 Installation
 
 Clone the repository to your local machine:
+
 git clone https://github.com/jimni6/weather-app.git
 
-Navigate to the project directory:
-cd <project-directory>
+Navigate to the project directory
 
 Install dependencies:
+
 npm install --save-dev jest
+
 npm install --save-dev jest-environment-jsdom
 
 Running the Test
+
 npx jest
 
 This will also run all test files in your project.
